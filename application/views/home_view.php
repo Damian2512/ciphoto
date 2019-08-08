@@ -95,7 +95,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="gallery">
 			<ul>
 			<?php foreach ($images as $img): ?>
-			<li><img src="uploads/<?php echo $img['name']; ?>"> </li>
+			<li><img style="width: 500px;" height="321px;" src="uploads/<?php echo $img['name']; ?>"> </li>
 
 			<?php endforeach;?>
 			</ul>
